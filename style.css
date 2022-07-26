@@ -1,0 +1,151 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    /* font-family: 'Orbitron'; */
+    font-weight: 500;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.list li:hover {
+    font-weight: 700;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+
+.s {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-icon {
+    padding: 10px;
+}
+
+.nav-button {
+    border: 2.5px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #606060;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-img {
+    position: absolute;
+    height: 500px;
+    left: 100px;
+    top: 200px;
+}
+
+.square-pattern {
+    position: absolute;
+    height: 300px;
+    top: 450px;
+    left: 260px;
+}
+
+.star-pattern {
+    position: absolute;
+    height: 55px;
+    top: 200px;
+    left: 1250px;
+}
+
+.globe-img {
+    position: absolute;
+    height: 60px;
+    left: 750px;
+    top: 150px;
+}
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+
+.hero-heading {
+    font-family: 'Orbitron';
+    font-size: 55px;
+}
+
+.hero-description {
+    font-family: 'Poppins';
+    font-size: 14px;
+    width: 600px;
+    color: #606060;
+    text-align: center;
+}
+
+.button-email {
+    background-color: #fff;
+    color: #606060;
+    border: 2px solid black;
+    font-family: 'Orbitron';
+    height: 35px;
+    width: 200px;
+    margin: 50px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+.button-join {
+    background-color: black;
+    color: #fff;
+    border: 2px solid black;
+    font-family: 'Orbitron';
+    height: 35px;
+    width: 150px;
+    margin: 50px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.contact-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #606060;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icons img {
+    height: 30px;
+    margin: 10px;
+}
